@@ -17,7 +17,7 @@ public class FlowerPack {
     }
 
     private void setQuantity(int value) {
-        if(value < 1) {
+        if (value < 1) {
             this.quantity = 1;
         } else {
             this.quantity = value;
