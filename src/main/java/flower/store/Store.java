@@ -5,7 +5,7 @@ import java.util.List;
 
 import flower.store.filters.SearchFilter;
 
-public class Store{
+public class Store {
     private List<Item> items;
 
     public List<Item> search(SearchFilter filter) {

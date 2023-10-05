@@ -2,6 +2,6 @@ package flower.store.filters;
 
 import flower.store.Item;
 
-public interface SearchFilter {
+interface SearchFilter {
     public boolean match(Item item);
 }
